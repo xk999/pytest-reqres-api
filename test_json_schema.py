@@ -28,6 +28,6 @@ def test_create_user():
     validate(instance=resp.json(), schema=create_user_schema)
 
 def test_update_user():
-    resp = requests.patch(user2_link, data={"name": "morpheus", "job": "zion resident"})
+    resp = requests.patch(user2_link, data=update_user)
     validate(instance=resp.json(), schema=update_user_schema)
     

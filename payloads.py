@@ -74,6 +74,11 @@ valid_user = {
     "job": "leader"
 }
 
+update_user = {
+    "name": "morpheus",
+    "job": "zion resident"
+}
+
 create_user_schema = {
     "name": "morpheus",
     "job": "leader",

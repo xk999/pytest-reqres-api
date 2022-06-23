@@ -1,4 +1,3 @@
-from email.policy import strict
 import pytest
 import requests
 from payloads import *
