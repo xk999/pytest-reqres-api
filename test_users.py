@@ -25,7 +25,7 @@ def test_update_user():
 
 def test_delete_user():
     resp = requests.delete(user2)
-    assert resp.status_code == 204, f"Error: got status code {resp.status_code} instead of 205"
+    assert resp.status_code == 204, f"Error: got status code {resp.status_code} instead of 204"
 
 def test_delayed_response():
     resp = requests.get(users_link, params=delayed, timeout=3.5)
