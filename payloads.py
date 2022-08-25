@@ -46,13 +46,11 @@ reg_schema = {"type": "object",
 valid_login = {"email": "eve.holt@reqres.in", "password": "cityslicka"}
 
 invalid_login = [{"email": "eve.holt@reqres.in"}, 
-{"password": "pistol"}, 
-{"email": "eve.holt@reqres.in", "password": " "},
+ {"password": "pistol"}, 
  {"email": " ", "password": "pistol"},
  {"email": " ", "password": " "},
  {"email": "qwerty@reqres.in", "password": "pistol"},
  {"email": "qwerty", "password": "123"},
- {"email": "eve.holt@reqres.in", "password": "qwerty"}
  ]
 
 login_schema = {"type": "object",
